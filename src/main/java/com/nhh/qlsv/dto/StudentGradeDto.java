@@ -1,0 +1,16 @@
+package com.nhh.qlsv.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class StudentGradeDto {
+    private double score;
+    private char scoreLetter;
+    private Long classId;
+}
